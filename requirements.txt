@@ -1,0 +1,4 @@
+streamlit
+pandas
+numpy
+# Add other libraries your app needs here
