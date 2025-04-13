@@ -1,6 +1,6 @@
-# My Streamlit Application
+# GxP Document Generator App
 
-A simple example Streamlit application that interacts with a backend API.
+A GxP Document Generator application that interacts with a backend API.
 
 ## Setup
 
