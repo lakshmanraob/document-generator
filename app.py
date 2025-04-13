@@ -3,14 +3,15 @@ import requests
 import io
 import datetime
 import os                     # Import os module
-from dotenv import load_dotenv # Import load_dotenv
+# from dotenv import load_dotenv # Import load_dotenv
 
 # --- Load Environment Variables ---
-load_dotenv() # Load variables from .env file
+# load_dotenv() # Load variables from .env file
 
 # --- Configuration ---
 # Read base URL from environment variable, provide default if not found
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000") # Default if .env is missing
+# API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000") # Default if .env is missing
+API_BASE_URL = os.getenv("API_BASE_URL")
 
 # Construct full API endpoints using the base URL
 USER_STORIES_API_ENDPOINT = f"{API_BASE_URL}/upload/userstories"
