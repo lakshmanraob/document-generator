@@ -1,4 +1,6 @@
 streamlit
 pandas
 numpy
+requests
+python-dotenv
 # Add other libraries your app needs here
