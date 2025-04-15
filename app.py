@@ -54,6 +54,9 @@ def upload_file_to_api(endpoint, file_bytes, filename):
 
 # --- Sidebar ---
 with st.sidebar:
+    # --- Display Logo in Sidebar ---
+    st.image("logo.png", width=150) # Logo at the top
+    # --- End Display Logo ---
     st.header("Uploads")
 
     # --- User Stories Upload ---
